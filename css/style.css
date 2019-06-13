@@ -3,7 +3,7 @@ body{font-family: "Philosopher", sans-serif}
         .cor-endereco{color: #BABABA;margin: 0px 36px 0px 4px; font-size: 15px;}
         
         .topo-endereco{display: -webkit-inline-box;padding-top: 12px;}
-        .menu{display: inline-block; float: right; margin-right: 50px;}
+        .menu{float: right; margin-right: 50px;}
         button{float: right;}
         .menu a {
             color: #696969;text-decoration: none; padding: 13px 16px;
@@ -46,6 +46,9 @@ body{font-family: "Philosopher", sans-serif}
             .descricao h4 {font-size: 20px;}
             .menu {display: none;}
         }
+        @media (max-width:640px){
+            .container-fluid {padding-right: 8%;}
+        }
         @media (max-width:500px){
             .descricao h1 {font-size: 35px;}
             .descricao h4 {font-size: 15px;}
@@ -54,12 +57,12 @@ body{font-family: "Philosopher", sans-serif}
         @media (max-width:375px){
             .descricao h1 {font-size: 20px;}
             .descricao h4 {font-size: 10px;}
-            .cor-icone {margin-left: 11px;}
+            .cor-icone {margin-left: 4px;}
             
         }
         @media (max-width:360px){
             .descricao h1 {font-size: 20px;}
             .descricao h4 {font-size: 10px;}
-            .cor-icone {margin-left: 11px;}
+            .cor-icone {margin-left: 10px;}
             .cor-endereco {font-size: 13px;}
         }
