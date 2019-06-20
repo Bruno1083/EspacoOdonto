@@ -81,6 +81,7 @@ body{font-family: "Philosopher", sans-serif}
         }
         @media (max-width:640px){
             .container-fluid {padding-right: 8%;}
+            .descricao h1 {font-size: 49px;}
         }
         @media (max-width:500px){
             .descricao h1 {font-size: 35px;}
