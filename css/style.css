@@ -1,3 +1,6 @@
+p,html.body{margin: 0;padding: 0}
+a{text-decoration: none; list-style: none;}
+
 body{font-family: "Philosopher", sans-serif}
         .cor-icone{color: #75C3E8; margin-left: 36px;}
         .cor-endereco{color: #BABABA;margin: 0px 36px 0px 4px; font-size: 15px;}
@@ -19,7 +22,7 @@ body{font-family: "Philosopher", sans-serif}
             width: 100%;
         }
         .logo,menu{display: inline-block;}
-        .cantainerMenu {width: 100%;line-height: 90px;}
+        .cantainerMenu {width: 100%;line-height: 90px;height: 105px;}
         .logo img{
             max-width: 100%;
             width: 198px;
@@ -35,23 +38,46 @@ body{font-family: "Philosopher", sans-serif}
             position: absolute;
         }
         .descricao h1 {font-size: 5em; color: rgb(47, 155, 194)}
-        .descricao h4 {margin-top: 8%;}
+        .descricao h4 {margin-top: 8%;color: black}
 
+        .blocos {display: flex; padding: 0px 27px 0px 27px; margin-top: -5%; position: relative;}
+        .bloco1 {display: flex; background-color:#1F73BE; height: 276px ;width: 100%;}
+        .bloco2 {display: flex; background-color:#017FCA; height: 276px;width: 100%;}
+        .bloco3 {display: flex;background-color: #0FB4E9; height: 276px ;width: 100%;}
+        .servicos {padding-top: 50px}
+        .descricaoBloco{ padding: 7% 6%; text-align: initial}
+        .descricaoBloco h4 {font-weight: bold}
+        .descricaoBloco p {padding-top: 18px;}
+        .descricaoBloco a {text-decoration: none ;}
+        .descricaoBloco a,span {color: #fff}
+        .descricaoBloco a:hover{transition: 300ms; color: #E6E8F9}
+        .iconeBloco i {font-size: 40px;padding: 35px 22px 0px 0px;color: #fff}
         @media (max-width:900px){
-            .descricao h1 {font-size: 60px;}
+            .descricao h1 {font-size: 64px;}
             .descricao h4 {font-size: 24px;}
+            .menu {display: none;}
         }
         @media (max-width:812px){
             .container-fluid {width: 99%;}
-            .descricao h1 {font-size: 55px;}
+            .descricao h1 {font-size: 63px;}
             .descricao h4 {font-size: 22px;}
             .menu {display: none;}
             /* .menu {margin-right: 49px;} */
+        }
+        @media (max-width:768px){
+            .descricao h1 {font-size: 62px;}
+            .descricao h4 {font-size: 22px;}
+            .menu {display: none;}
+            .blocos {flex-direction: column; padding: 7% 0;margin-top: 3%;padding: 0;}
+            .bloco1 {height: 100%;margin-bottom: 1%;border-radius: 1%;width: 100%;}
+            .bloco2 {height: 100%;margin-bottom: 1%;border-radius: 1%;width: 100%;}
+            .bloco3 {height: 100%;margin-bottom: 1%;border-radius: 1%;width: 100%;}
         }
         @media (max-width:700px){
             .descricao h1 {font-size: 45px;}
             .descricao h4 {font-size: 20px;}
             .menu {display: none;}
+            .blocos {flex-direction: column; padding: 7% 0;}
         }
         @media (max-width:640px){
             .container-fluid {padding-right: 8%;}
@@ -62,8 +88,9 @@ body{font-family: "Philosopher", sans-serif}
             .logo img {width: 158px; height: 60px; padding-left: 38px;}
         }
         @media (max-width:425px){
+            .descricao {margin: 8% 4%;}
             .cor-endereco {font-size: 11px;}
-            .descricao h1 {font-size: 30px;}
+            .descricao h1 {font-size: 34px;}
             .descricao h4 {font-size: 13px;}
         }
         @media (max-width:400px){
@@ -72,9 +99,14 @@ body{font-family: "Philosopher", sans-serif}
             .descricao h4 {font-size: 13px;}
         }
         @media (max-width:375px){
-            .descricao h1 {font-size: 20px;}
-            .descricao h4 {font-size: 10px;}
+            .descricao {margin: 8% 4%;}
+            .descricao h1 {font-size: 30px;}
+            .descricao h4 {font-size: 11px;}
             .cor-endereco {margin-left: 2px;font-size: 10px;}
+            .descricaoBloco{ padding: 7% 6%; text-align: initial}
+            .descricaoBloco h4 {font-size: 24px;}
+            .descricaoBloco span {font-size: 14px;}
+            .iconeBloco i {font-size: 44px;padding: 16px;color: #fff}
         }
         @media (max-width:360px){
             .descricao h1 {font-size: 20px;}
@@ -83,8 +115,14 @@ body{font-family: "Philosopher", sans-serif}
             .cor-endereco {font-size: 13px;}
         }
         @media (max-width:320px){
-            .descricao h1 {font-size: 20px;}
-            .descricao h4 {font-size: 10px;}
+            .logo img {width: 120px;height: 44px;padding-left: 33px;}
+            .cantainerMenu {height: 90px;}
+            .descricao {margin: 10% 4%;}
+            .descricao h1 {font-size: 25px;}
+            .descricao h4 {font-size: 11px;}
             .cor-icone {margin-left: 7px;}
             .cor-endereco {font-size: 10px;}
+            .blocos {margin-top: 3%;padding: 0;}
+            .descricaoBloco{padding: 6% 0% 0% 7%;}
+            .iconeBloco i {padding: 23px 14px;color: #fff}
         }
