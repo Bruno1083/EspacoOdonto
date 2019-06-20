@@ -44,7 +44,6 @@ body{font-family: "Philosopher", sans-serif}
         .bloco1 {display: flex; background-color:#1F73BE; height: 276px ;width: 100%;}
         .bloco2 {display: flex; background-color:#017FCA; height: 276px;width: 100%;}
         .bloco3 {display: flex;background-color: #0FB4E9; height: 276px ;width: 100%;}
-        .servicos {padding-top: 50px}
         .descricaoBloco{ padding: 7% 6%; text-align: initial}
         .descricaoBloco h4 {font-weight: bold}
         .descricaoBloco p {padding-top: 18px;}
@@ -52,6 +51,7 @@ body{font-family: "Philosopher", sans-serif}
         .descricaoBloco a,span {color: #fff}
         .descricaoBloco a:hover{transition: 300ms; color: #E6E8F9}
         .iconeBloco i {font-size: 40px;padding: 35px 22px 0px 0px;color: #fff}
+        .servicos {padding: 50px 27px 0px 27px;}
         @media (max-width:900px){
             .descricao h1 {font-size: 64px;}
             .descricao h4 {font-size: 24px;}
