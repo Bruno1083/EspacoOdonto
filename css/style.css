@@ -74,10 +74,10 @@ body{font-family: "Philosopher", sans-serif}
             .bloco3 {height: 100%;margin-bottom: 1%;border-radius: 1%;width: 100%;}
         }
         @media (max-width:700px){
-            .descricao h1 {font-size: 45px;}
+            .descricao h1 {font-size: 57px;}
             .descricao h4 {font-size: 20px;}
             .menu {display: none;}
-            .blocos {flex-direction: column; padding: 7% 0;}
+            .blocos {flex-direction: column; padding: 7% 0; margin-top: 0}
         }
         @media (max-width:640px){
             .container-fluid {padding-right: 8%;}
