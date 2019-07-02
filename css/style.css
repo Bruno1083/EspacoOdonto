@@ -52,6 +52,7 @@ body{font-family: "Philosopher", sans-serif}
         .descricaoBloco a:hover{transition: 300ms; color: #E6E8F9}
         .iconeBloco i {font-size: 40px;padding: 35px 22px 0px 0px;color: #fff}
         .servicos {padding: 50px 27px 0px 27px;}
+        .itensServisos {flex-wrap: wrap}
         @media (max-width:900px){
             .descricao h1 {font-size: 64px;}
             .descricao h4 {font-size: 24px;}
@@ -72,6 +73,7 @@ body{font-family: "Philosopher", sans-serif}
             .bloco1 {height: 100%;margin-bottom: 1%;border-radius: 1%;width: 100%;}
             .bloco2 {height: 100%;margin-bottom: 1%;border-radius: 1%;width: 100%;}
             .bloco3 {height: 100%;margin-bottom: 1%;border-radius: 1%;width: 100%;}
+            .servicos {padding: 25px 0px 0px 0px;}
         }
         @media (max-width:700px){
             .descricao h1 {font-size: 57px;}
