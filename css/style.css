@@ -52,7 +52,12 @@ body{font-family: "Philosopher", sans-serif}
         .descricaoBloco a:hover{transition: 300ms; color: #E6E8F9}
         .iconeBloco i {font-size: 40px;padding: 35px 22px 0px 0px;color: #fff}
         .servicos {padding: 50px 27px 0px 27px;}
-        .itensServisos {flex-wrap: wrap}
+
+        .especialidades span {color: #808080; font-weight: 400; font-size: 17px;}
+        .especialidades h1 {color: #3bb0e2; font-size: 1.9rem}
+        .especialidades img {width: 50px; float: left; margin-right: 15px;}
+        .itemEspecialidade {padding: 30px 10px 40px 10px;}
+    
         @media (max-width:900px){
             .descricao h1 {font-size: 64px;}
             .descricao h4 {font-size: 24px;}
