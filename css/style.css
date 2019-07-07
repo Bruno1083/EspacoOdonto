@@ -53,8 +53,9 @@ body{font-family: "Philosopher", sans-serif}
         .iconeBloco i {font-size: 40px;padding: 35px 22px 0px 0px;color: #fff}
         .servicos {padding: 50px 27px 0px 27px;}
 
+        .especialidades {padding-left: 2%; padding-right: 2%;}
         .especialidades span {color: #808080; font-weight: 400; font-size: 17px;}
-        .especialidades h1 {color: #3bb0e2; font-size: 1.9rem}
+        .especialidades h1 {color: #75C3E8; font-size: 28px}
         .especialidades img {width: 50px; float: left; margin-right: 15px;}
         .itemEspecialidade {padding: 30px 10px 40px 10px;}
     
