@@ -96,17 +96,17 @@ body{font-family: "Philosopher", sans-serif}
             position: fixed;
             transition: 1.5s;
             left: -80%;
-            top: 20px;
+            top: 30px;
             height: 75px;
             width: 150px;
             padding: 0;
             z-index: 5;
             left: calc(40% - 75px);
         }
-        header.open-menu #menu-mobile ul {margin: 20px;margin-top: 130px;}
+        header.open-menu #menu-mobile ul {margin: 35px;margin-top: 160px;}
         header.open-menu #menu-mobile li {text-align: center;border-top: #BABABA 1px solid;}
         header.open-menu #menu-mobile li:last-child {border-bottom: #BABABA 1px solid;}
-        header.open-menu #menu-mobile li a {font-weight: bold;font-size: 16px;padding: 18px;display: block;}
+        header.open-menu #menu-mobile li a {font-weight: bold;font-size: 16px;padding: 18px;display: block;text-decoration: none;}
     
         @media (max-width:900px){
             .descricao h1 {font-size: 64px;}
@@ -117,7 +117,7 @@ body{font-family: "Philosopher", sans-serif}
             .descricao h1 {font-size: 63px;}
             .descricao h4 {font-size: 22px;}
             .menu {display: none;}
-            #btn-bars {color: #00AFF0;font-size: 22px;position: absolute;z-index: 5;
+            #btn-bars {color: #00AFF0;font-size: 22px;position: absolute;
                 border:none;background: none;right: 0;padding-right: 33px;display: inline-block;}
             /* .menu {margin-right: 49px;} */
         }
@@ -152,6 +152,10 @@ body{font-family: "Philosopher", sans-serif}
         @media (max-width:500px){
             .descricao h1 {font-size: 35px;}
             .descricao h4 {font-size: 15px;}
+            .cor-endereco {margin: 0;}
+            .cor-icone{padding: 0;}
+            #endereco{left: 0;}
+            #telefone{right: 0;}
         }
         @media (max-width:425px){
             .descricao {margin: 8% 4%;}
