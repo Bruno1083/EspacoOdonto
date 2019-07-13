@@ -34,7 +34,6 @@ body{font-family: "Philosopher", sans-serif}
             object-fit: cover;      
         }
         .container-fluid {padding: 0 28px 0 28px;}
-        /*.carousel-item h1 {color: black}*/
         .descricao {
             z-index: 1;
             margin: 13% 4%;
@@ -152,10 +151,6 @@ body{font-family: "Philosopher", sans-serif}
         @media (max-width:500px){
             .descricao h1 {font-size: 35px;}
             .descricao h4 {font-size: 15px;}
-            .cor-endereco {margin: 0;}
-            .cor-icone{padding: 0;}
-            #endereco{left: 0;}
-            #telefone{right: 0;}
         }
         @media (max-width:425px){
             .descricao {margin: 8% 4%;}
