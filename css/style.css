@@ -76,8 +76,9 @@ body{font-family: "Philosopher", sans-serif}
             width: 80%;
             height: 100%;
             left: -80%;
+            overflow: scroll;
             transition: 0.5s;
-            z-index: 4;
+            z-index: 5;
         }
         header.open-menu #menu-mobile {left: 0;}
         header.open-menu #menu-mobile-mask {
@@ -99,7 +100,7 @@ body{font-family: "Philosopher", sans-serif}
             height: 75px;
             width: 150px;
             padding: 0;
-            z-index: 5;
+            z-index: 6;
             left: calc(40% - 75px);
         }
         header.open-menu #menu-mobile ul {margin: 35px;margin-top: 160px;}
