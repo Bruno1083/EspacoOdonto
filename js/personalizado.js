@@ -19,3 +19,14 @@ sr.reveal('.anim_top', {
     origin: 'top',
     distance: '20px'
 });
+
+$(document).ready(function(){
+ 
+    $("#btn-bars").on("click", function () {
+        $("header").toggleClass("open-menu");
+    });
+
+    $("#menu-mobile-mask").on("click", function () {
+        $("header").removeClass("open-menu");
+    });
+});    
