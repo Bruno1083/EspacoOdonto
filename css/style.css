@@ -92,7 +92,7 @@ body{font-family: "Philosopher", sans-serif}
         }
 
         /* adiciona classe quando clicado */
-        header.open-menu #logo {
+        /* header.open-menu #logo {
             position: fixed;
             transition: 1.5s;
             left: -80%;
@@ -102,7 +102,8 @@ body{font-family: "Philosopher", sans-serif}
             padding: 0;
             z-index: 6;
             left: calc(40% - 75px);
-        }
+        } */
+        header.open-menu #menu-mobile img {margin-top: 34px;left: calc(40% - 40px);position: absolute;transition: 1s}
         header.open-menu #menu-mobile ul {margin: 35px;margin-top: 160px;}
         header.open-menu #menu-mobile li {text-align: center;border-top: #BABABA 1px solid;}
         header.open-menu #menu-mobile li:last-child {border-bottom: #BABABA 1px solid;}
