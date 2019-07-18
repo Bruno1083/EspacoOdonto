@@ -26,7 +26,7 @@ $(document).ready(function(){
         $("header").toggleClass("open-menu");
     });
 
-    $("#menu-mobile-mask").on("click", function () {
+    $("#menu-mobile-mask, #mobile a").on("click", function () {
         $("header").removeClass("open-menu");
     });
 }); 
