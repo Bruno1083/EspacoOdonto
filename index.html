@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Espaço Odonto</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css\style.css">
     <link href="https://fonts.googleapis.com/css?family=Philosopher&display=swap" rel="stylesheet">
@@ -14,13 +14,13 @@
 <body>
         <header>
             <div id="menu-mobile-mask" class="visible-xs"></div>
-            <div id="menu-mobile" class="visible-xs">
+            <div class="menu-mobile" id="menu-mobile" class="visible-xs">
                 <img id="logo" src="imagens\logotopo.png" alt="logo topo">
                 <ul class="list-unstyled">
                     <li><a href="index.html">Home</a></li>
-                        <li><a href="">Sobre</a></li>
-                        <li><a href="">Especialidades</a></li>
-                        <li><a href="">Contatos</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="">Contatos</a></li>
                 </ul>  
             </div>
 
@@ -46,9 +46,9 @@
                 <nav class="menu">
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="">Sobre</a></li>
-                        <li><a href="">Especialidades</a></li>
-                        <li><a href="">Contatos</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#especialidades">Especialidades</a></li>
+                        <li><a href="#">Contatos</a></li>
                     </ul>  
                 </nav>
             </div>
@@ -131,11 +131,11 @@
                         </div>  
                     </div>
                 </div>    
-            </div> 
+            </div>
                 <div class="container-fluid">
                     <div class="especialidades">
-                        <div class="servicos">
-                            <h5>Nossos Serviços</h5>
+                        <div class="servicos" id="especialidades">
+                            <h5>Nossas Especialidades</h5>
                         </div>
                         <div class="row">
                             <div class="col-12 col-sm-12 col-md-6 col-lg-4">
@@ -190,11 +190,16 @@
                     </div> 
                 </div>
         </main>
+        <footer>
+            <div class="footer">
+                <span><i class="far fa-copyright"></i>Todos os direitos reservados</span>
+            </div>
+        </footer>
     </div> 
-</body>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script src="js/personalizado.js"></script>
-
+<script src="js/scrollSuave.js"></script>
+</body>
 </html>

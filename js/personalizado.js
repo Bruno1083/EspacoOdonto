@@ -29,4 +29,4 @@ $(document).ready(function(){
     $("#menu-mobile-mask").on("click", function () {
         $("header").removeClass("open-menu");
     });
-});    
+}); 
