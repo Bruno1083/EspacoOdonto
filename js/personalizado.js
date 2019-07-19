@@ -30,3 +30,26 @@ $(document).ready(function(){
         $("header").removeClass("open-menu");
     });
 }); 
+
+$(document).ready(function(){
+    var containerBtn = $(".btn-top");
+    var link = $(".btn-top-link");
+
+    // mostrar botao
+    $(window).scroll(function(){
+        if($(this).scrollTop() > 90){
+           containerBtn.fadeIn(500); 
+        }else{
+           containerBtn.fadeOut(0); 
+        }
+    });
+
+    // clicar para o topo
+
+    containerBtn.click(function(){
+
+        $("html, body").animate({scrollTop: 0},800);
+
+        return false;
+    });
+});
