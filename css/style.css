@@ -56,7 +56,7 @@ body{font-family: "Philosopher", sans-serif}
         .servicos {padding: 50px 27px 0px 27px;}
 
         .especialidades {padding-left: 2%; padding-right: 2%;}
-        .especialidades span {color: #808080; font-weight: 400; font-size: 17px;}
+        .especialidades span {color: #808080; font-weight: 400; font-size: 17px; text-align: justify;}
         .especialidades h1 {color: #75C3E8; font-size: 28px}
         .especialidades img {width: 50px; float: left; margin-right: 15px;}
         .itemEspecialidade {padding: 30px 10px 40px 10px;}
