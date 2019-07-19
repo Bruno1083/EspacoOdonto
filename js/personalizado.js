@@ -43,11 +43,17 @@ $(document).ready(function(){
            containerBtn.fadeOut(0); 
         }
     });
-
+    
+    //Trocar a cor do butão ao passar o mause
+    $(function(){
+        $(containerBtn).hover(
+            function(){$(this).css("background","#017FCA")},
+            function(){$(this).css("background","rgba(47, 155, 194, .8)")}
+        );
+    });
     // clicar para o topo
 
     containerBtn.click(function(){
-
         $("html, body").animate({scrollTop: 0},800);
 
         return false;
