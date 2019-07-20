@@ -31,7 +31,8 @@ $(document).ready(function(){
     });
 }); 
 
-$(document).ready(function(){
+$(document).ready(function(e){
+    e.preventDefault();
     var containerBtn = $(".btn-top");
     var link = $(".btn-top-link");
 
@@ -55,8 +56,7 @@ $(document).ready(function(){
 
     // clicar para o topo
 
-    containerBtn.click(function(e){
-        e.preventDefault();
+    containerBtn.click(function(){
         $("html, body").animate({scrollTop: 0},800);
 
         return false;
