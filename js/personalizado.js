@@ -59,3 +59,12 @@ $(document).ready(function(){
         return false;
     });
 });
+
+$(document).ready(function(){
+    $(".btn-top").mouseover(function(){
+        $(".btn-top").css("background","#017FCA");
+    });
+    $(".btn-top").mouseout(function(){
+        $(".btn-top").css("background","rgba(47, 155, 194, .8)");
+    });
+})
