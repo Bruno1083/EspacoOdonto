@@ -31,8 +31,7 @@ $(document).ready(function(){
     });
 }); 
 
-$(document).ready(function(e){
-    e.preventDefault();
+$(document).ready(function(){
     var containerBtn = $(".btn-top");
     var link = $(".btn-top-link");
 
