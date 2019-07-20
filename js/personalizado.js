@@ -51,6 +51,8 @@ $(document).ready(function(){
             function(){$(this).css("background","rgba(47, 155, 194, .8)")}
         );
     });
+
+    
     // clicar para o topo
 
     containerBtn.click(function(){
