@@ -46,7 +46,7 @@ body{font-family: "Philosopher", sans-serif}
         .bloco1 {display: flex; background-color:#1F73BE; height: 276px ;width: 100%;}
         .bloco2 {display: flex; background-color:#017FCA; height: 276px;width: 100%;}
         .bloco3 {display: flex;background-color: #0FB4E9; height: 276px ;width: 100%;}
-        .descricaoBloco{ padding: 7% 6%; text-align: initial}
+        .descricaoBloco{ padding: 7% 6%; text-align: initial;width: 100%}
         .descricaoBloco h4 {font-weight: bold}
         .descricaoBloco p {padding-top: 18px;}
         .descricaoBloco a {text-decoration: none ;}
