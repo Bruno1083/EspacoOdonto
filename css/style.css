@@ -149,7 +149,7 @@ body{font-family: "Philosopher", sans-serif}
             .bloco1 {height: 100%;margin-bottom: 1%;border-radius: 1%;width: 100%;}
             .bloco2 {height: 100%;margin-bottom: 1%;border-radius: 1%;width: 100%;}
             .bloco3 {height: 100%;margin-bottom: 1%;border-radius: 1%;width: 100%;}
-            .servicos {padding: 25px 0px 0px 0px;}
+            .servicos {padding: 25px 0px 0px 8px;}
             #btn-bars {padding-right: 32px;}
         }
         @media (max-width:700px){
@@ -165,6 +165,7 @@ body{font-family: "Philosopher", sans-serif}
             .descricao h4 {font-size: 17px;}
             #btn-bars {padding-right: 17px;}
             #btn-bars {margin-right: 17px;padding: 0; cursor: pointer;}
+            .especialidades {padding-left: 1%;padding-right: 1%;}
         }
         @media (max-width:520px){
             .descricao h1 {font-size: 39px;}
