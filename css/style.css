@@ -6,7 +6,7 @@ body{font-family: "Philosopher", sans-serif}
         .cor-icone svg {height: 20px;}
         .cor-endereco{color: #BABABA;margin: 0px 36px 0px 4px; font-size: 15px;}
         
-        .topo-endereco{display: -webkit-inline-box;padding-top: 12px;}
+        .topo-endereco{display: -webkit-inline-box; padding-top: 12px;}
         .menu{float: right; margin-right: 50px;}
         button{float: right;}
         .menu a {
@@ -21,7 +21,6 @@ body{font-family: "Philosopher", sans-serif}
             background: -webkit-linear-gradient(90deg, #F8F8F8 80%,#D6D8D9 100%);
             background: -moz-linear-gradient(90deg, #F3F3F3 80%,#D6D8D9 100%);
             background: -o-linear-gradient(#F8F8F8 80%,#D6D8D9 100%);
-            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#F8F8F8", endColorstr="#D6D8D9");
             /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F8F8F8', endColorstr='#D6D8D9',GradientType=90 ); */
             height: 50px;
             width: 100%;
