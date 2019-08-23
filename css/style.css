@@ -175,7 +175,7 @@ body{font-family: "Philosopher", sans-serif}
             .especialidades {padding-left: 1%;padding-right: 1%;}
         }
         @media (max-width:520px){
-            .btn-top {left: 7px;bottom: 15px;width: 60px;height: 60px;}
+            .btn-top {left: 24px;bottom: 15px;width: 60px;height: 60px;}
             .floating-wpp-button {width: 60px !important;height: 60px !important;}
             .btn-top-link svg {height: 60px;}
             .descricao h1 {font-size: 39px;}
