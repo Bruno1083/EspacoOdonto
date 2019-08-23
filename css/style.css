@@ -173,6 +173,7 @@ body{font-family: "Philosopher", sans-serif}
             #btn-bars {padding-right: 17px;}
             #btn-bars {margin-right: 17px;padding: 0; cursor: pointer;}
             .especialidades {padding-left: 1%;padding-right: 1%;}
+            .floating-wpp {right: 35px;}
         }
         @media (max-width:520px){
             .descricao h1 {font-size: 39px;}

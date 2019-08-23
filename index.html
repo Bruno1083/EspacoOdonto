@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css\style.css">
     <link href="https://fonts.googleapis.com/css?family=Philosopher&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css\floating-wpp.min.css">
     <script src="https://kit.fontawesome.com/ec50e36a81.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
@@ -214,13 +215,7 @@
                 <div class="btn-top">
                     <a class="btn-top-link" href=""><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-up" class="svg-inline--fa fa-angle-up fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"></path></svg></a>
                 </div>
-                <div ><!--Botão whatsapp  -->
-                    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-                    <a href="https://wa.me/5581979041821" Style=" position:fixed;width:50px;height:50px;bottom:15px;right:28px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
-                      z-index:1000;" target="_blank">
-                    <i style="margin-top: 6px;margin-left: 2px;font-size: 1.3em;" class="fa fa-whatsapp"></i>
-                    </a>
-                </div> 
+            <div id="floating-wpp"></div> <!--Botao whatsApp -->
         </main>
         <footer>     
             <div class="footer">
@@ -233,5 +228,18 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script src="js/personalizado.js"></script>
 <script src="js/scrollSuave.js"></script>
+<script src="js/floating-wpp.min.js"></script>
+   <script type="text/javascript">
+        $(document).ready(function() {
+           $('#floating-wpp').floatingWhatsApp({
+            phone: '5581979041821',
+            popupMessage: '',
+            showPopup: false,
+            position: 'right',
+            message: '',
+            headerTitle: 'whatsApp'
+           }); 
+        });
+    </script>
 </body>
 </html>
