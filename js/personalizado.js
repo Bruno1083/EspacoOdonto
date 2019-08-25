@@ -47,8 +47,8 @@ $(document).ready(function(){
     //Trocar a cor do butão ao passar o mause
     $(function(){
         $(containerBtn).hover(
-            function(){$(this).css("background","#017FCA")},
-            function(){$(this).css("background","rgba(47, 155, 194, .8)")}
+            function(){$(this).css("background","#75C3E8")},
+            function(){$(this).css("background","rgba(47, 155, 194, .6)")}
         );
     });
 
@@ -60,13 +60,20 @@ $(document).ready(function(){
 
         return false;
     });
+    $(function(){
+        $(containerBtn).mouseover(function(){$(this).css("background","rgba(47, 155, 194, .8)")});
+    });
+
+    $(function(){
+        $(containerBtn).mouseout(function(){$(this).css("background","rgba(47, 155, 194, .6)")});
+    });
 });
 
-$(document).ready(function(){
-    $(".btn-top").mouseover(function(){
-        $(".btn-top").css("background","#017FCA");
-    });
-    $(".btn-top").mouseout(function(){
-        $(".btn-top").css("background","rgba(47, 155, 194, .8)");
-    });
-})
+// $(document).ready(function(){
+//     $(".btn-top").mouseover(function(){
+//         $(".btn-top").css("background","#017FCA");
+//     });
+//     $(".btn-top").mouseout(function(){
+//         $(".btn-top").css("background","rgba(47, 155, 194, .8)");
+//     });
+// })

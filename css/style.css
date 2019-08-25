@@ -1,5 +1,6 @@
-p,html,body{margin: 0;padding: 0}
-a{text-decoration: none; list-style: none;}
+* {padding: 0;margin: 0;vertical-align: baseline;list-style: none;border: 0;
+    text-decoration: none;}
+/*a{text-decoration: none; list-style: none;}*/
 
 body{font-family: "Philosopher", sans-serif}
         .cor-icone{display:-ms-inline-flexbox;color: #75C3E8; margin-left: 36px;}
@@ -124,14 +125,14 @@ body{font-family: "Philosopher", sans-serif}
         .footer span {line-height: 3;}
 
         /*botão scroll top*/
-        .btn-top{z-index: 8;position: fixed;bottom: 18px;display: none;
-            right: 50%;width: 40px;height: 40px;box-shadow: 0px 0px 20px 0px rgba(128, 128, 128, .2);
-            background-color: rgba(47, 155, 194, .8);border-radius: 50% }
+        .btn-top{z-index: 8;position: fixed;bottom: 100px;display: none;
+            right: 36px;width: 50px;height: 50px;box-shadow: 0px 0px 20px 0px rgba(128, 128, 128, .2);
+            background-color: rgba(47, 155, 194, .6);border-radius: 50% }
 
         .btn-top-link{display: block;width: 100%;height: 100%;
-            text-align: center;color: #fff !important;font-size: 25px;
+            text-align: center;color: #fff !important;font-size: 15px;
             font-weight: bold;text-decoration: none !important;}
-        .btn-top-link svg {padding-bottom: 5px;height: 39px;} 
+        .btn-top-link svg {padding-bottom: 5px;height: 50px;} 
 
         @media (max-width:1095px){
             .descricaoBloco h4 {font-size: 22px;}
@@ -150,6 +151,9 @@ body{font-family: "Philosopher", sans-serif}
             /* .menu {margin-right: 49px;} */
         }
         @media (max-width:768px){
+            .btn-top {right: 29px;bottom: 85px;width: 50px;height: 50px;}
+            .btn-top-link svg {height: 50px;}
+            .floating-wpp-button {width: 60px !important;height: 60px !important;}
             .descricao h1 {font-size: 62px;}
             .descricao h4 {font-size: 22px;}
             .blocos {flex-direction: column; padding: 7% 0;margin-top: 3%;padding: 0;}
@@ -175,9 +179,6 @@ body{font-family: "Philosopher", sans-serif}
             .especialidades {padding-left: 1%;padding-right: 1%;}
         }
         @media (max-width:520px){
-            .btn-top {left: 8px;bottom: 15px;width: 60px;height: 60px;}
-            .floating-wpp-button {width: 60px !important;height: 60px !important;}
-            .btn-top-link svg {height: 60px;}
             .descricao h1 {font-size: 39px;}
             .descricao h4 {font-size: 15px;}
         }
