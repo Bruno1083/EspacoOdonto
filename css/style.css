@@ -52,10 +52,11 @@ body{font-family: "Philosopher", sans-serif}
         .bloco2 {display: flex; background-color:#017FCA; height: 276px;width: 100%;}
         .bloco3 {display: flex;background-color: #0FB4E9; height: 276px ;width: 100%;}
         .descricaoBloco{ padding: 7% 6%; text-align: initial;width: 100%}
-        .descricaoBloco h4 {font-weight: bold}
+        .descricaoBloco h4 {font-weight: bold;font-size: 27px;}
         .descricaoBloco p {padding-top: 18px;}
         .descricaoBloco a {text-decoration: none ;}
         .descricaoBloco a,span {color: #fff}
+        .descricaoBloco span {font-size: 17px}
         .descricaoBloco a:hover{transition: 300ms; color: #E6E8F9}
         .iconeBloco {right: 0px;position: absolute;}
         .iconeBloco svg {height: 65px;;padding: 25px 22px 0px 0px;    
