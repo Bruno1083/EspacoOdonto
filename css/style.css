@@ -135,8 +135,6 @@ body{font-family: "Philosopher", sans-serif}
             font-weight: bold;text-decoration: none !important;}
         .btn-top-link svg {padding-bottom: 5px;height: 41px;} 
 
-        .floating-wpp .floating-wpp-button svg {width: 122% !important;}
-
         @media (max-width:1095px){
             .descricaoBloco h4 {font-size: 22px;}
         }    
@@ -158,6 +156,7 @@ body{font-family: "Philosopher", sans-serif}
             .btn-top-link svg {height: 49px;}
             .floating-wpp {bottom: 22px !important;}
             .floating-wpp-button {width: 50px !important;height: 50px !important;}
+            .floating-wpp .floating-wpp-button svg {width: 122% !important;}
             .descricao h1 {font-size: 62px;}
             .descricao h4 {font-size: 22px;}
             .blocos {flex-direction: column; padding: 7% 0;margin-top: 3%;padding: 0;}
