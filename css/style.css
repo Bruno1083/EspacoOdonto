@@ -2,7 +2,7 @@
     text-decoration: none;}
 /*a{text-decoration: none; list-style: none;}*/
 
-body{font-family: "Philosopher", sans-serif}
+body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
         .cor-icone{display:-ms-inline-flexbox;color: #75C3E8; margin-left: 36px;}
         .cor-icone svg {height: 20px;}
         .cor-endereco{color: #BABABA;margin: 0px 36px 0px 4px; font-size: 15px;}
@@ -157,7 +157,7 @@ body{font-family: "Philosopher", sans-serif}
             .btn-top-link svg {height: 49px;}
             .floating-wpp {bottom: 22px !important;}
             .floating-wpp-button {width: 50px !important;height: 50px !important;}
-            .floating-wpp .floating-wpp-button svg {width: 122% !important;}
+            /*.floating-wpp .floating-wpp-button svg {width: 122% !important;}*/
             .descricao h1 {font-size: 62px;}
             .descricao h4 {font-size: 22px;}
             .blocos {flex-direction: column; padding: 7% 0;margin-top: 3%;padding: 0;}
