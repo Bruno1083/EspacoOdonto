@@ -187,17 +187,18 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
             .descricao h4 {font-size: 15px;}
         }
         @media (max-width:500px){
+            .cor-endereco {margin: 0px 9px 0px 4px}
             .descricao h1 {font-size: 35px;}
             .descricao h4 {font-size: 15px;}
         }
         @media (max-width:425px){
             .descricao {margin: 8% 4%;}
-            .cor-endereco {font-size: 14px;}
+            .cor-endereco {font-size: 14px;margin: 0px 0px 0px 4px;}
             .descricao h1 {font-size: 34px;}
             .descricao h4 {font-size: 13px;}
         }
         @media (max-width:400px){
-            .cor-endereco {font-size: 14px;}
+            .cor-endereco {font-size: 13px;}
             .descricao h1 {font-size: 30px;}
             .descricao h4 {font-size: 13px;}
         }
