@@ -175,7 +175,7 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
         }
         @media (max-width:640px){
             .container-fluid {padding:0 1%;}
-            .logo img {width: 106px; height: 47px; padding-left: 17px;}
+            .logo img {width: 155px; height: 72px; padding-left: 17px;}
             .descricao h1 {font-size: 42px;}
             .descricao h4 {font-size: 17px;}
             #btn-bars {padding-right: 17px;}
@@ -192,20 +192,21 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
         }
         @media (max-width:425px){
             .descricao {margin: 8% 4%;}
-            .cor-endereco {font-size: 11px;}
+            .cor-endereco {font-size: 14px;}
             .descricao h1 {font-size: 34px;}
             .descricao h4 {font-size: 13px;}
         }
         @media (max-width:400px){
-            .cor-endereco {font-size: 11px;}
+            .cor-endereco {font-size: 14px;}
             .descricao h1 {font-size: 30px;}
             .descricao h4 {font-size: 13px;}
         }
         @media (max-width:375px){
+            .logo img {width: 152px;height: 70px;padding-left: 17px;}
             .descricao {margin: 8% 4%;}
             .descricao h1 {font-size: 30px;}
             .descricao h4 {font-size: 11px;}
-            .cor-endereco {margin-left: 2px;font-size: 10px;}
+            .cor-endereco {margin-left: 0px 0px 0px 4px;font-size: 13px;}
             .descricaoBloco{ padding: 7% 6%; text-align: initial}
             .descricaoBloco h4 {font-size: 20px;}
             .descricaoBloco span {font-size: 14px;}
@@ -218,13 +219,13 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
             .cor-endereco {font-size: 13px;}
         }
         @media (max-width:320px){
-            .logo img {width: 120px;height: 44px;padding-left: 33px;}
+            .logo img {width: 123px;height: 56px;padding-left: 16px;}
             .cantainerMenu {height: 90px;}
             .descricao {margin: 10% 4%;}
             .descricao h1 {font-size: 25px;}
             .descricao h4 {font-size: 11px;}
             .cor-icone {margin-left: 7px;}
-            .cor-endereco {font-size: 10px;}
+            .cor-endereco {font-size: 12px;}
             .blocos {margin-top: 3%;padding: 0;}
             .descricaoBloco{padding: 6% 0% 0% 7%;}
             .iconeBloco i {padding: 9px 14px;color: #fff}
