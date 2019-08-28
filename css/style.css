@@ -56,7 +56,7 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
         .descricaoBloco p {padding-top: 18px;}
         .descricaoBloco a {text-decoration: none ;}
         .descricaoBloco a,span {color: #fff}
-        .descricaoBloco span {font-size: 17px}
+        .descricaoBloco span {font-size: 19px;line-height: 0.5;}
         .descricaoBloco a:hover{transition: 300ms; color: #E6E8F9}
         .iconeBloco {right: 0px;position: absolute;}
         .iconeBloco svg {height: 65px;;padding: 25px 22px 0px 0px;    
@@ -65,7 +65,7 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
         .servicos h5 {font-size: 25px;color: #808080;}
 
         .especialidades {padding-left: 2%; padding-right: 2%;}
-        .especialidades span {color: #808080; font-weight: 400; font-size: 19px; text-align: justify;}
+        .especialidades span {color: #808080; font-weight: 400; font-size: 19px; line-height: 0.5; text-align: justify;}
         .especialidades h1 {color: #75C3E8; font-size: 28px;margin: 0;padding: 7px 0px 29px 0px;} 
         .especialidades img {float: left;border-radius: 50%;width: 80px;height: 80px;margin-right: 11px;}
         .especialidades p {margin-top: 5px;}
@@ -135,6 +135,7 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
             text-align: center;color: rgb(255,255,255) !important;font-size: 31px;
             font-weight: bold;text-decoration: none !important;}
         .btn-top-link svg {padding-bottom: 5px;height: 41px;} 
+        .floating-wpp .floating-wpp-button svg {width: 118% !important;}
 
         @media (max-width:1095px){
             .descricaoBloco h4 {font-size: 22px;}
