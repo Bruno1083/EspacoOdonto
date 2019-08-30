@@ -178,20 +178,20 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
             .blocos {flex-direction: column; padding: 7% 0; margin-top: 0}
         }
         @media (max-width:640px){
+            .carousel-item img {width: 120%}
             .container-fluid {padding:0 1%;}
             .logo img {width: 155px; height: 72px; padding-left: 17px;}
-            .descricao h1 {font-size: 42px;}
-            .descricao h4 {font-size: 17px;}
+            .descricao h1 {font-size: 54px;}
+            .descricao h4 {font-size: 21px;}
             #btn-bars {padding-right: 17px;}
             #btn-bars {margin-right: 17px;padding: 0; cursor: pointer;}
             .especialidades {padding-left: 1%;padding-right: 1%;}
         }
         @media (max-width:520px){
-            .descricao h1 {font-size: 39px;}
-            .descricao h4 {font-size: 15px;}
+            .descricao h1 {font-size: 48px;}
+            .descricao h4 {font-size: 18px;}
         }
         @media (max-width:500px){
-            .carousel-item img {width: 120%}
             .cor-endereco {margin: 0px 9px 0px 4px}
             .descricao h1 {font-size: 47px;}
             .descricao h4 {font-size: 18px;}
