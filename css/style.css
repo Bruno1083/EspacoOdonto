@@ -7,6 +7,7 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
         .cor-icone svg {height: 20px;}
         .cor-endereco{color: #BABABA;margin: 0px 36px 0px 4px; font-size: 15px;}
         
+        .carousel-item img {width: 100%}
         .topo-endereco{display: -webkit-box; display: -ms-flexbox;padding-top: 12px;}
         .menu{float: right; margin-right: 50px;}
         button{float: right;}
@@ -201,20 +202,21 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
             .descricao h4 {font-size: 13px;}
         }
         @media (max-width:400px){
+            .carousel-item img {width: 120%}
             .iconeBloco svg {padding: 25px 9px 0px 0px;}
             .descricaoBloco{padding: 6% 0% 0% 3%;}
             .descricaoBloco h4 {font-size: 26px;}
             .descricaoBloco span {font-size: 18px;}
             .descricaoBloco p {padding-right: 5px;}
             .cor-endereco {font-size: 13px;}
-            .descricao h1 {font-size: 34px;}
-            .descricao h4 {font-size: 13px;}
+            .descricao h1 {font-size: 40px;}
+            .descricao h4 {font-size: 15px;}
         }
         @media (max-width:375px){
             .logo img {width: 152px;height: 70px;padding-left: 17px;}
             .descricao {margin: 8% 4%;}
-            .descricao h1 {font-size: 30px;}
-            .descricao h4 {font-size: 11px;}
+            .descricao h1 {font-size: 39px;}
+            .descricao h4 {font-size: 14px;}
             .cor-endereco {margin-left: 0px 0px 0px 4px;font-size: 13px;}
             /*.descricaoBloco{ padding: 7% 6%; text-align: initial}*/
             /*.descricaoBloco h4 {font-size: 20px;}*/
@@ -223,8 +225,8 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
         }
         @media (max-width:360px){
             .descricaoBloco h4 {font-size: 24px;}
-            .descricao h1 {font-size: 27px;}
-            .descricao h4 {font-size: 10px;}
+            .descricao h1 {font-size: 38px;}
+            .descricao h4 {font-size: 13px;}
             .cor-icone {margin-left: 10px;}
             .cor-endereco {font-size: 13px;}
         }
@@ -233,8 +235,8 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
             .logo img {width: 123px;height: 56px;padding-left: 16px;}
             .cantainerMenu {height: 90px;}
             .descricao {margin: 10% 4%;}
-            .descricao h1 {font-size: 25px;}
-            .descricao h4 {font-size: 11px;}
+            .descricao h1 {font-size: 35px;}
+            .descricao h4 {font-size: 13px;}
             .cor-icone {margin-left: 7px;}
             .cor-endereco {font-size: 12px;}
             .blocos {margin-top: 3%;padding: 0;}
