@@ -63,7 +63,7 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
         .iconeBloco svg {height: 65px;;padding: 25px 22px 0px 0px;    
             color: #fff;position: absolute;right: 0px;}
         .servicos {padding: 30px 0px 0px 10px;}
-        .servicos h5 {font-size: 25px;color: #808080;}
+        .servicos h5 {font-size: 26px;color: #808080;}
 
         .especialidades {padding-left: 2%; padding-right: 2%;}
         .especialidades span {color: #808080; font-weight: 400; font-size: 19px; line-height: 0.5; text-align: justify;}
@@ -123,9 +123,20 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
         header.open-menu #menu-mobile li a {font-weight: bold;font-size: 16px;padding: 18px;display: block;text-decoration: none;z-index: 8;}
 
         /* Contatos */
-        .contatos {
+
+        /*.contatos {
             padding-left: 2%;padding-right: 2%;
-        }
+        }*/
+        .contato {background-color: #858585;}
+        .contato .row {padding-bottom: 96px;}
+        .contato h5 {margin: 0; color: #fff;font-size: 26px;padding-bottom: 60px;}
+        .contato h3 {color: #fff;text-align: center;margin-top: 60px;}
+        .contato p {margin: 0; color: #fff; text-align: center;}
+        .endereco1 {text-align: center;background-color: #2F9BC2;}
+        .endereco1 h3 {color: #fff;padding-top: 10px;}
+        .endereco1 p {color: #fff;}
+        .endereco p {padding-bottom: 20px;color: #fff;}
+        /*.contatos .borda {margin: 25px 0px 0px 0px;}*/
 
         /*footer*/
 
