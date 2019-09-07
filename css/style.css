@@ -103,19 +103,7 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
             background-color: rgba(0, 0, 0, .5);
             z-index: 3;
         }
-
-        /* adiciona classe quando clicado */
-        /* header.open-menu #logo {
-            position: fixed;
-            transition: 1.5s;
-            left: -80%;
-            top: 30px;
-            height: 75px;
-            width: 150px;
-            padding: 0;
-            z-index: 6;
-            left: calc(40% - 75px);
-        } */
+        
         header.open-menu #menu-mobile img {margin-top: 34px;left: calc(45% - 60px);position: absolute;transition: 1s}
         header.open-menu #menu-mobile ul {margin: 35px;margin-top: 160px;}
         header.open-menu #menu-mobile li {text-align: center;border-top: #BABABA 1px solid;}
@@ -123,20 +111,11 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
         header.open-menu #menu-mobile li a {font-weight: bold;font-size: 16px;padding: 18px;display: block;text-decoration: none;z-index: 8;}
 
         /* Contatos */
-
-        /*.contatos {
-            padding-left: 2%;padding-right: 2%;
-        }*/
-        .contato {background-color: #858585;}
-        .contato .row {padding-bottom: 96px;}
-        .contato h5 {margin: 0; color: #fff;font-size: 26px;padding-bottom: 60px;}
-        .contato h3 {color: #fff;text-align: center;margin-top: 60px;}
-        .contato p {margin: 0; color: #fff; text-align: center;}
-        .endereco1 {text-align: center;background-color: #2F9BC2;}
-        .endereco1 h3 {color: #fff;padding-top: 10px;}
-        .endereco1 p {color: #fff;}
-        .endereco p {padding-bottom: 20px;color: #fff;}
-        /*.contatos .borda {margin: 25px 0px 0px 0px;}*/
+        .contatos {padding: 1px 0px 17px 25px;}
+        .contatos h5 {font-size: 26px;color: #808080;}
+        .contato {background-color: #2F9BC2;}
+        .contato .row {padding: 50px 22px 50px 22px;}
+        .contato p {margin: 0; color: #fff; text-align: center;margin: 4px;}
 
         /*footer*/
 
