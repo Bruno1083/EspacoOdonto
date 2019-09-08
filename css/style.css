@@ -173,6 +173,7 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
             .blocos {flex-direction: column; padding: 7% 0; margin-top: 0}
         }
         @media (max-width:640px){
+            .contato .row {padding: 10px 22px 10px 22px;}
             .contatos iframe{height: 250px;}
             .topo-endereco {display: inherit;}
             .endereco {float: left;}
