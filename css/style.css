@@ -39,7 +39,7 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
             padding-left: 56px;
             object-fit: cover;      
         }
-        .container-fluid {padding: 0 28px 0 28px;}
+        /* .container-fluid {padding: 0 28px 0 28px;} */
         .descricao {
             z-index: 1;
             margin: 13% 4%;
@@ -62,7 +62,7 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
         .iconeBloco {right: 0px;position: absolute;}
         .iconeBloco svg {height: 65px;;padding: 25px 22px 0px 0px;    
             color: #fff;position: absolute;right: 0px;}
-        .servicos {padding: 30px 0px 0px 10px;}
+        .servicos {padding: 30px 0px 0px 0px;}
         .servicos h5 {font-size: 26px;color: #808080;}
 
         .especialidades {padding-left: 2%; padding-right: 2%;}
@@ -113,11 +113,11 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
         /* Contatos */
         .contatos {padding: 1px 0px 17px 25px;}
         .contatos h5 {font-size: 26px;color: #808080;}
-        .contato {background-color: #2F9BC2;}
+        .contato-mapa {padding: 0% 2% 1% 2%;}
+        .contato {background-color: #2F9BC2;margin-bottom: 10px;}
         .contato .row {padding: 50px 22px 50px 22px;}
         .contato p {margin: 0; color: #fff; text-align: left;margin: 4px;}
-        .contato svg {height: 21px;padding-bottom: 5px;padding-right: 3px;}
-
+        .contato svg {height: 21px;padding-bottom: 3px;padding-right: 6px;}
         /*footer*/
 
         .footer {background-color: #0FB4E9; width: 100%; height:50px;}
@@ -190,7 +190,7 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
             .descricao h4 {font-size: 21px;}
             #btn-bars {padding-right: 17px;}
             #btn-bars {margin-right: 17px;padding: 0; cursor: pointer;}
-            .especialidades {padding-left: 1%;padding-right: 1%;}
+            .especialidades {padding-left: 2%;padding-right: 2%;}
         }
         @media (max-width:520px){
             .descricao h1 {font-size: 48px;}
