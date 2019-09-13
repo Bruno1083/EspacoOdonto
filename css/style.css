@@ -39,6 +39,7 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
             padding-left: 56px;
             object-fit: cover;      
         }
+        
         /* .container-fluid {padding: 0 28px 0 28px;} */
         .descricao {
             z-index: 1;
@@ -77,6 +78,7 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
         /* Menu mobile */
 
         #btn-bars{display: none}
+        #btn-bars svg {height: 19px;}
         #menu-mobile ul {margin: 20px;margin-top: 130px;}
         #menu-mobile li {text-align: center;border-top: #BABABA 1px solid;}
         #menu-mobile li:last-child {border-bottom: #BABABA 1px solid;}
