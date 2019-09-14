@@ -67,11 +67,11 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
         .servicos h5 {font-size: 26px;color: #808080;}
 
         .especialidades {padding-left: 2%; padding-right: 2%;}
-        .especialidades span {color: #808080; font-weight: 400; font-size: 19px; line-height: 0.5; text-align: justify;}
-        .especialidades h1 {color: #75C3E8; font-size: 28px;margin: 0;padding: 7px 0px 29px 0px;} 
+        .especialidades span {color: #808080; font-weight: 400; font-size: 18px; line-height: 0.5; text-align: justify;}
+        .especialidades h1 {color: #75C3E8; font-size: 26px;margin: 0;padding: 7px 0px 29px 0px;} 
         .especialidades img {float: left;border-radius: 50%;width: 80px;height: 80px;margin-right: 11px;}
         .especialidades p {margin-top: 5px;}
-        .itemEspecialidade {padding: 30px 10px 40px 10px;}
+        .itemEspecialidade {padding: 30px 10px 5px 10px;}
 
         .borda {box-shadow: 0px 0px 15px 0px rgba(128, 128, 128, .2);margin: 25px auto;}
 
