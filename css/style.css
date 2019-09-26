@@ -1,11 +1,9 @@
-* {padding: 0;margin: 0;vertical-align: baseline;list-style: none;border: 0;
-    text-decoration: none;}
-/*a{text-decoration: none; list-style: none;}*/
-
+* {padding: 0;margin: 0;vertical-align: baseline;list-style: none;border: 0;text-decoration: none;}
 body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
         .cor-icone{display:-ms-inline-flexbox;color: #75C3E8; margin-left: 36px;}
         .cor-icone svg {height: 20px;}
         .cor-endereco{color: #BABABA;margin: 0px 36px 0px 4px; font-size: 15px;}
+        /* .telefone a{color: #BABABA;text-decoration: none;} */
         
         .carousel-item img {width: 100%}
         .topo-endereco{display: -webkit-box; display: -ms-flexbox;padding-top: 12px;}
@@ -32,20 +30,8 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
         }
         .logo,menu{display: inline-block;}
         .cantainerMenu {width: 100%;line-height: 90px;height: 105px;}
-        .logo img{
-            max-width: 100%;
-            width: 198px;
-            height: 75px;
-            padding-left: 56px;
-            object-fit: cover;      
-        }
-        
-        /* .container-fluid {padding: 0 28px 0 28px;} */
-        .descricao {
-            z-index: 1;
-            margin: 13% 4%;
-            position: absolute;
-        }
+        .logo img{max-width: 100%;width: 198px;height: 75px;padding-left: 56px;object-fit: cover;}
+        .descricao {z-index: 1;margin: 13% 4%;position: absolute;}
         .descricao h1 {font-size: 5em; color: rgb(47, 155, 194)}
         .descricao h4 {margin-top: 8%;color: black}
 
@@ -114,18 +100,11 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
 
         /*equipe*/
         .equipe {padding-left: 2%; padding-right: 2%;}
-        .equipe img {
-            height: 240px;
-            width: 240px;
-            display: block;
-            position: relative;
-            border-radius: 50%;
-            margin-right: auto;
-            margin-left: auto;
-            margin-bottom: 10px;
-        }
+        .equipe img {height: 240px;width: 240px;display: block;position: relative;border-radius: 50%;
+            margin-right: auto;margin-left: auto;margin-bottom: 10px;}
         .equipe h1 {font-size: 30px;text-align: center;color: #75C3E8;}
         .equipe h4 {font-size: 20px;text-align: center;margin-bottom: 25px;color: #75C3E8;}
+        .equipe h5 {font-size: 26px;color: #808080;}
         .equipe p {text-align: center;color: #808080;}
         .itemEquipe {padding: 30px 10px 5px 10px;}
 
@@ -169,14 +148,12 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
             .menu {display: none;}
             #btn-bars {color: #00AFF0;font-size: 22px;position: absolute;
                 border:none;background: none;right: 0;padding-right: 33px;display: inline-block;}
-            /* .menu {margin-right: 49px;} */
         }
         @media (max-width:768px){
             .btn-top {right: 30px;bottom: 85px;width: 49px;height: 49px;}
             .btn-top-link svg {height: 49px;}
             .floating-wpp {bottom: 22px !important;}
             .floating-wpp-button {width: 50px !important;height: 50px !important;}
-            /*.floating-wpp .floating-wpp-button svg {width: 122% !important;}*/
             .descricao h1 {font-size: 62px;}
             .descricao h4 {font-size: 22px;}
             .blocos {flex-direction: column; padding: 7% 0;margin-top: 3%;padding: 0;}
@@ -220,7 +197,6 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
             .descricao h4 {font-size: 18px;}
         }
         @media (max-width:500px){
-            /* .cor-endereco {margin: 0px 9px 0px 4px} */
             .descricao h1 {font-size: 47px;}
             .descricao h4 {font-size: 18px;}
         }
@@ -247,9 +223,6 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
             .descricao h1 {font-size: 39px;}
             .descricao h4 {font-size: 14px;}
             .cor-endereco {margin-left: 0px 0px 0px 4px;font-size: 13px;}
-            /*.descricaoBloco{ padding: 7% 6%; text-align: initial}*/
-            /*.descricaoBloco h4 {font-size: 20px;}*/
-            /*.descricaoBloco span {font-size: 14px;}*/
             .iconeBloco i {font-size: 44px;padding: 16px;color: #fff}
         }
         @media (max-width:360px){
@@ -269,7 +242,6 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
             .cor-icone {margin-left: 7px;}
             .cor-endereco {font-size: 12px;}
             .blocos {margin-top: 3%;padding: 0;}
-            /*.descricaoBloco{padding: 6% 0% 0% 3%;}*/
             .descricaoBloco h4 {font-size: 22px;}
             .iconeBloco i {padding: 9px 14px;color: #fff}
         }
