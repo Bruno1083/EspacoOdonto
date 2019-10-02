@@ -108,7 +108,14 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
         .equipe h5 {font-size: 26px;color: #808080;}
         .equipe p {text-align: center;color: #808080;}
         .itemEquipe {padding: 30px 10px 5px 10px;}
-
+        /* convenios */
+        .convenioTitulo {padding: 1% 0% 2% 2%;;}
+        .convenioTitulo h5 {font-size: 26px;color: #808080;}
+        .convenios {padding: 0% 2% 1% 2%;}
+        .convenio {background-color: #D6D8D9;margin-bottom: 10px;}
+        .convenio .row {padding: 50px 22px 50px 22px;}
+        .convenio img {height: 140px;width: 140px;display: block;position: relative;border-radius: 50%;
+            margin-right: auto;margin-left: auto;margin-bottom: 10px;}
         /* Contatos */
         .contatos {padding: 1% 0% 2% 2%;;}
         .contatos h5 {font-size: 26px;color: #808080;}
