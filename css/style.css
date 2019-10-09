@@ -51,10 +51,18 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
             color: #fff;position: absolute;right: 0px;}
         .servicos {padding: 30px 0px 0px 0px;}
         .servicos h5 {font-size: 26px;color: #808080;}
+        .servicos h5:after {
+            content: "";
+            border-bottom: 4px solid #0FB4E9;
+            width: 35px;
+            display: block;
+            overflow: hidden;
+            margin-top: 7px;
+        }
 
         .especialidades {padding-left: 2%; padding-right: 2%;}
         .especialidades span {color: #808080; font-weight: 400; font-size: 18px; line-height: 0.5; text-align: justify;}
-        .especialidades h1 {color: #75C3E8; font-size: 26px;margin: 0;padding: 7px 0px 29px 0px;} 
+        .especialidades h1 {color: #75C3E8; font-size: 26px;margin: 0;padding:24px 0px 23px 0px;} 
         .especialidades img {float: left;border-radius: 50%;width: 80px;height: 80px;margin-right: 11px;}
         .especialidades p {margin-top: 5px;}
         .itemEspecialidade {padding: 30px 10px 5px 10px;}
@@ -106,11 +114,27 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
         .equipe h2 {font-size: 20px;text-align: center;margin-bottom: 6px;color:#808084;}
         .equipe h3 {font-size: 10px;text-align: center;color:#808084;font-size: 12px;}
         .equipe h5 {font-size: 26px;color: #808080;}
+        .equipe h5:after {
+            content: "";
+            border-bottom: 4px solid #0FB4E9;
+            width: 40px;
+            display: block;
+            overflow: hidden;
+            margin-top: 7px;
+        }
         .equipe .margin {margin: 16px 0 16px 0;}
         .itemEquipe {padding: 15px 10px 10px 10px;border-radius: 30px;box-shadow: 0px 0px 15px 0px rgba(128, 128, 128, .2)}
         /* convenios */
         .convenioTitulo {padding: 1% 0% 2% 2%;;}
         .convenioTitulo h5 {font-size: 26px;color: #808080;}
+        .convenioTitulo h5:after {
+            content: "";
+            border-bottom: 4px solid #0FB4E9;
+            width: 40px;
+            display: block;
+            overflow: hidden;
+            margin-top: 7px;
+        }
         .convenios {padding: 0% 2% 1% 2%;}
         .convenios .row {padding: 0px 22px 0px 22px;}
         .convenio {border-radius: 0 0 10px 10px;background-color: #DCDCDC;;margin-bottom: 10px;}
@@ -119,6 +143,14 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
         /* Contatos */
         .contatos {padding: 1% 0% 2% 2%;;}
         .contatos h5 {font-size: 26px;color: #808080;}
+        .contatos h5:after {
+            content: "";
+            border-bottom: 4px solid #0FB4E9;
+            width: 40px;
+            display: block;
+            overflow: hidden;
+            margin-top: 7px;
+        }
         .contato-mapa {padding: 0% 2% 1% 2%;}
         .contato {background-color: #2F9BC2;margin-bottom: 10px;border-radius: 10px 10px 0px 0px;}
         .contato a {color: #fff !important;text-decoration: none;}
