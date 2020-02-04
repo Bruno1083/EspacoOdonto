@@ -124,6 +124,7 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
             margin-top: 7px;
         }
         .equipe .margin {margin: 16px 0 16px 0;}
+        .equipe .row {padding-right: 5%;padding-left: 5%}
         .itemEquipe {padding: 15px 10px 10px 10px;height: 100%;border-radius: 30px;box-shadow: 0px 0px 15px 0px rgba(128, 128, 128, .2)}
         /* convenios */
         .convenioTitulo {padding: 1% 0% 2% 2%;;}
