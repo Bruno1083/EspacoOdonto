@@ -61,6 +61,8 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
             margin-top: 7px;
         }
 
+        .slideClinica {padding-left: 2%; padding-right: 2%;}
+
         .especialidades {padding-left: 2%; padding-right: 2%;}
         .especialidades span {color: #808080; font-weight: 400; font-size: 18px; line-height: 0.5; text-align: justify;}
         .especialidades h1 {color: #75C3E8; font-size: 26px;margin: 0;padding:24px 0px 23px 0px;} 
