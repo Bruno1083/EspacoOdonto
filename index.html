@@ -24,6 +24,7 @@
     <meta property="og:url" content="https://bruno1083.github.io/EspacoOdonto/"/>
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="css\style.css">
     <link href="https://fonts.googleapis.com/css?family=Philosopher&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css\floating-wpp.min.css">
@@ -147,6 +148,12 @@
             <div class="slideClinica">
                 <div class="servicos anim_top" id="slideClinica">
                     <h5>A Clinica</h5>
+                </div>
+                <div class="single-item galeria">
+                    <img class="img" src="imagens/1.png" alt="" >
+                    <img class="img" src="imagens/4.png" alt="" >
+                    <img class="img" src="imagens/2.png" alt="" >
+                    <img class="img" src="imagens/3.png" alt="" >
                 </div>
             </div><!--fim slide clinica -->
                 <div class="">
@@ -390,6 +397,8 @@
         </footer>
     </div> 
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script src="js/personalizado.js"></script>
@@ -406,6 +415,19 @@
             headerTitle: 'whatsApp'
            }); 
         });
+        $(document).ready(function(){
+            $('.single-item').slick({
+                dots: true,
+                infinite: true,
+                speed: 2000,
+                fade: true,
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                adaptiveHeight: true,
+                // pauseOnHover: true
+            });
+          });
     </script>
 </body>
 </html>
