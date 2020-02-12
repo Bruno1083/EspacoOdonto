@@ -64,72 +64,44 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
         /*slide clinica*/
 
         .slideClinica {padding-left: 2%; padding-right: 2%;}
-        .galeria {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    left: 0%;
-    right: 0%;
-    border-radius: 5px;
-    margin-top: 30px;
-}
-.img{
-    width: 100%;
-}
-button.slick-prev.slick-arrow {
-    position: absolute;
-    z-index: 5;
-    cursor: pointer;
-    left: 20px;
-    font-size: 0;
-    border: none;
-    background: transparent;
-    width: 23px;
-    height: 42px;
-    top: 40%;
-    background-image: url(../imagens/anterior.png);
-}
-button.slick-next.slick-arrow {
-    position: absolute;
-    z-index: 5;
-    cursor: pointer;
-    right: 20px;
-    font-size: 0;
-    border: none;
-    background: transparent;
-    width: 23px;
-    height: 42px;
-    top: 40%;
-    background-image: url(../imagens/proximo.png);
-}
-button.slick-next{
-    position: absolute;
-    z-index: 5;
-    top: 0;
-    right: 20px;
-}
-.slick-dots li button {
-    bottom: 2%;
-    font-size: 0;
-    cursor: pointer;
-    background: transparent;
-    width: 20px;
-    height: 20px;
-    border: 4px solid #fff;
-    border-radius: 50%;
-}
-.slick-dots {
-    position: absolute;
-    bottom: 20px;
-    left: 46%;
-}
-li.slick-active button {
-    background: #0FB4E9;
-}
-.slick-dots li {
-    display: inline-block;
-    padding-left: 10px;
-}
+        .galeria {overflow: hidden;position: relative;width: 100%;left: 0%;right: 0%;border-radius: 5px;margin-top: 30px;}
+        .img{width: 100%;}
+        button.slick-prev.slick-arrow {
+            outline: none;
+            position: absolute;
+            z-index: 5;
+            cursor: pointer;
+            left: 20px;
+            font-size: 0;
+            border: none;
+            background: transparent;
+            width: 23px;
+            height: 42px;
+            top: 40%;
+            background-repeat: no-repeat;
+            background-image: url(../imagens/anterior.png);
+        }
+        button.slick-next.slick-arrow {
+            outline: none;
+            position: absolute;
+            z-index: 5;
+            cursor: pointer;
+            right: 20px;
+            font-size: 0;
+            border: none;
+            background: transparent;
+            width: 23px;
+            height: 42px;
+            top: 40%;
+            background-repeat: no-repeat;
+            background-image: url(../imagens/proximo.png);
+        }
+        button.slick-next{position: absolute;z-index: 5;top: 0;right: 20px;}
+        .slick-dots li button {bottom: 2%;font-size: 0;cursor: pointer;background: transparent;width: 20px;
+        height: 20px;border: 4px solid #fff;border-radius: 50%;outline: none;}
+        .slick-dots {position: absolute;bottom: 20px;left: 46%;}
+        li.slick-active button {background: #0FB4E9;}
+        .slick-dots li {display: inline-block;padding-left: 10px;}
 
         .especialidades {padding-left: 2%; padding-right: 2%;}
         .especialidades span {color: #808080; font-weight: 400; font-size: 18px; line-height: 0.5; text-align: justify;}
@@ -276,6 +248,7 @@ li.slick-active button {
             .descricaoBloco span {font-size: 20px;}
             .servicos {padding: 6% 0% 1% 1%;}
             #btn-bars {padding-right: 32px;}
+            .slick-dots {bottom: 0px;left: 43%;}
         }
         @media (max-width:700px){
             .descricao h1 {font-size: 57px;}
@@ -325,6 +298,8 @@ li.slick-active button {
             .galeria {width: 100%;left:0;right: 0;margin-top: 5px;}
             .slick-dots {bottom: -13px;left: 34%}
             .slick-dots li button {width: 16px;height: 16px;border: 3px solid #fff}
+            button.slick-prev.slick-arrow {width: 14px;height: 33px;background-size: 20px 33px;}
+            button.slick-next.slick-arrow {width: 14px;height: 26px;background-size: 14px 23px;top: 41%;}
         }
         @media (max-width:400px){
             /*.carousel-item img {width: 120%}*/
