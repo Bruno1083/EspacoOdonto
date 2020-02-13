@@ -50,7 +50,7 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
         .iconeBloco {right: 0px;position: absolute;}
         .iconeBloco svg {height: 65px;;padding: 25px 22px 0px 0px;    
             color: #fff;position: absolute;right: 0px;}
-        .servicos {padding: 30px 0px 0px 0px;}
+        .servicos {padding: 15px 0px 0px 0px;}
         .servicos h5 {font-size: 26px;color: #808080;}
         .servicos h5:after {
             content: "";
@@ -64,7 +64,7 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
         /*slide clinica*/
 
         .slideClinica {padding-left: 2%; padding-right: 2%;}
-        .galeria {overflow: hidden;position: relative;width: 100%;left: 0%;right: 0%;border-radius: 5px;margin-top: 30px;}
+        .galeria {overflow: hidden;position: relative;width: 100%;left: 0%;right: 0%;border-radius: 5px;margin-top: 25px;}
         .img{width: 100%;}
         button.slick-prev.slick-arrow {
             outline: none;
