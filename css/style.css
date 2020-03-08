@@ -277,7 +277,7 @@ body{font-family: "Philosopher", sans-serif; overflow-x: hidden;}
             .galeria {width: 100%;left:0;right: 0;margin-top: 5px;}
             .slick-dots li button {width: 16px;height: 16px;border: 3px solid #fff}
             button.slick-prev.slick-arrow {width: 14px;height: 33px;background-size: 20px 33px;}
-            button.slick-next.slick-arrow {width: 14px;height: 26px;background-size: 14px 23px;top: 41%;}
+            button.slick-next.slick-arrow {width: 14px;height: 26px;background-size: 14px 23px;}
         }
         @media (max-width:400px){
             .iconeBloco svg {padding: 25px 9px 0px 0px;}
